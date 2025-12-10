@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net10.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/aca27f85-8b61-4cb1-bef4-053721a93a41/resourceGroups/azureapp-swar/providers/Microsoft.Web/sites/swar-app"
+}

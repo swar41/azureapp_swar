@@ -1,0 +1,7 @@
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\azureapp_swar.exe
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\appsettings.Development.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\appsettings.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\azureapp_swar.dll
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\azureapp_swar.deps.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\azureapp_swar.runtimeconfig.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\publish\azureapp_swar.pdb

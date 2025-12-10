@@ -1,0 +1,13 @@
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\azureapp_swar.exe
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\web.config
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\appsettings.Development.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\appsettings.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\appsettings.Development.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\appsettings.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\azureapp_swar.deps.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\azureapp_swar.runtimeconfig.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\publish\azureapp_swar.staticwebassets.endpoints.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\azureapp_swar.dll
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\azureapp_swar.deps.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\azureapp_swar.runtimeconfig.json
+C:\Users\swaro\OneDrive\Desktop\fnf genai course\azure for .net\azureapp_swar\bin\Release\net10.0\publish\azureapp_swar.pdb
