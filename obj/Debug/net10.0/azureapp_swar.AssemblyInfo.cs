@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("azureapp_swar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14041d1abb003470f7d37b6c62929777e6c4142b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ccfd5aaec6e8cafe8168cb0c2476213d36cb0721")]
 [assembly: System.Reflection.AssemblyProductAttribute("azureapp_swar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("azureapp_swar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
