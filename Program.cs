@@ -1,9 +1,17 @@
+using azureapp_swar.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
-//telemetry service addition
-builder.Services.AddApplicationInsightsTelemetry();
+
+var connString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connString)
+);
+
 // Add services to the container.
 builder.Services.AddRazorPages();
-
+//telemetry service addition
+builder.Services.AddApplicationInsightsTelemetry();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
