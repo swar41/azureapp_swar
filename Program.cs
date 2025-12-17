@@ -2,19 +2,40 @@ using azureapp_swar.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-//telemetry service addition
-builder.Services.AddApplicationInsightsTelemetry();
-// Add services to the container.
+
+// ---------- Services ----------
+
+// Controllers (API)
+builder.Services.AddControllers();
+
+// Razor Pages
 builder.Services.AddRazorPages();
+
+// Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Application Insights
+builder.Services.AddApplicationInsightsTelemetry();
+
+// DbContext (Azure SQL)
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// ---------- Middleware ----------
+
+// Swagger (DEV only)
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+else
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -24,8 +45,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-app.MapRazorPages()
-   .WithStaticAssets();
+// Map endpoints
+app.MapControllers();     // 🔴 REQUIRED for API
+app.MapRazorPages();
 
 app.Run();
